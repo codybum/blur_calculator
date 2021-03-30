@@ -21,7 +21,8 @@ def variance_of_laplacian(frame_path):
 if __name__ == '__main__':
 
     if args.frame_path is not None:
-        value = variance_of_laplacian(args.frame_path)
+        blur_value = variance_of_laplacian(args.frame_path)
+        print(args.frame_path + ' blur score: ' + str(blur_value))
     else:
         print('provide frame path --frame_path')
 
