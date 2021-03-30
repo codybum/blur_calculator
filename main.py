@@ -23,5 +23,5 @@ if __name__ == '__main__':
     if args.frame_path is not None:
         value = variance_of_laplacian(args.frame_path)
     else:
-        print('provide frame path --parser.parse_args()')
+        print('provide frame path --frame_path')
 
